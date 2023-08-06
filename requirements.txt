@@ -1,0 +1,6 @@
+import requests  
+import pandas as pd
+from bs4 import BeautifulSoup as bs
+
+# If you are grtting SSL Certification Error
+from urllib3.exceptions import InsecureRequestWarning
